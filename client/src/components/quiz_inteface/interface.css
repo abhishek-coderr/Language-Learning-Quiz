@@ -1,0 +1,91 @@
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.header>button{
+    background-color: #005aeab1;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 15px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+.header>button:hover{
+    background-color: #005bea;
+    transform: scale(1.1);
+}
+.midsection{
+    display: flex;
+}
+.left{
+    width :70%;
+    padding: 20px;
+}
+.quiz_section,  .leaderboard, .footer{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.758);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 35px;
+}
+.qheader{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.qselections {
+    line-height: 2rem;
+    font-weight: 500;
+}
+.form-check {
+    padding-left: 2.5em;
+}
+.form-check-input[type=radio] {
+    border-radius: 50%;
+}
+
+.right{
+    padding: 20px;
+    width: 30%;
+}
+
+.leaderboard>div:first-child{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+.footer{
+    display: flex;
+    margin: 20px;
+}
+.footer_heading{
+    width: 50%;
+    padding: 20px;
+}
+.footer_form>form{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.758);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border-radius: 20px;
+}
+.footer_form>form>div{
+    padding: 20px;
+}
+.footer_form>form>div>input{
+    line-height: 20px;
+    margin: 2%;
+    border-radius: 5px;
+    border: 1px grey solid;
+}
+.footer_form>form>div>button{
+    background-color: rgba(0, 0, 255, 0.592);
+    color: white;
+    padding: 5px;
+}
